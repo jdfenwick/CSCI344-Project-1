@@ -17,3 +17,12 @@ Bootstrap Influence:
 http://www.concord-software.com/ using as a basis for my front page model
 
 http://wrapbootstrap.com/preview/WB004K715 using layout template for my content page
+
+
+ISSUES*
+
+Could not get the carousel feature to work properly in Bootstrap, so I trashed it entirely and chose to stick with a single 
+image. 
+
+Final thoughts: Bootstrap = FRUSTRATING
+                Foundation = user friendly and intuitive
