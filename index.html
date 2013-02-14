@@ -21,7 +21,6 @@
   
   <div class="row">
     <div class="three columns">
-      <h1><img src="http://placehold.it/400x100&text=Logo" /></h1>
     </div>
     <div class="nine columns">
       <ul class="nav-bar right">
@@ -38,10 +37,13 @@
   <!-- First Band (Slider) -->
   <!-- The Orbit slider is initialized at the bottom of the page by calling .orbit() on #slider -->
     
-  <div class="row">
+<div class="row">
     <div class="twelve columns">
       <div id="slider">
-        <img src="http://placehold.it/1000x400&text=[img 1]" />
+        <img src="pictures/pic4.jpg" />
+        <img src="pictures/pic3.jpg" />
+        <img src="pictures/pic2.jpg" />
+        <img src="pictures/pic1.jpg" />
       </div>
       
       <hr />
@@ -54,17 +56,17 @@
   <div class="row">
     
      <div class="four columns">
-      <li><a href='http://www.soundcloud.com' title='Listen!'><img src="guitar.png" /></a></li>
+      <li><a href='http://www.soundcloud.com' title='Listen!'><img src="pictures/guitar.png" /></a></li>
       <h4>Musicians Play</h4>
      </div>
   
     <div class="four columns">
-      <li><a href='http://www.youtube.com' title='Record!'><img src="camera.png" /></a></li>
+      <li><a href='http://www.youtube.com' title='Record!'><img src="pictures/camera.png" /></a></li>
       <h4>Fans Record</h4>
      </div>
     
     <div class="four columns">
-      <li><a href='http://www.tumblr.com' title='Review!'><img src="computer.png" /></a></li>
+      <li><a href='http://www.tumblr.com' title='Review!'><img src="pictures/computer.png" /></a></li>
       <h4>You Review</h4>
      </div>  
     
@@ -161,10 +163,15 @@
   <!-- Initialize JS Plugins -->
   <script src="javascripts/app.js"></script>
 
-  <script type="text/javascript">
-     $(window).load(function() {
-         $('#slider').orbit();
-     });
+ <script src="javascripts/jquery.js"></script>
+<script src="javascripts/jquery.foundation.orbit.js"></script>
+<script src="javascripts/modernizr.foundation.js"></script>
+<script src="javascripts/app.js"></script>
+<script type="text/javascript">
+
+  $(window).load(function() {
+    $('#slider').orbit();
+  });
   </script>
   
 </body>
