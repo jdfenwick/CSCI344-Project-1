@@ -9,3 +9,11 @@ http://webcoursesagency.com/  I like the layout of the page and will try to mode
 
 http://www.zurb.com/jobs/250-mashape-ux-ui-designer The way the page is designed is pretty much how my extra.html will 
 hopefully turn out.
+
+=====================================
+
+Bootstrap Influence:
+
+http://www.concord-software.com/ using as a basis for my front page model
+
+http://wrapbootstrap.com/preview/WB004K715 using layout template for my content page
