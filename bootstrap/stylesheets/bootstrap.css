@@ -10,6 +10,10 @@
 .clearfix {
   *zoom: 1;
 }
+
+h1{
+  font-family: 'Prosto One', cursive;
+}
 .clearfix:before,
 .clearfix:after {
   display: table;
@@ -198,8 +202,10 @@ textarea {
     orphans: 3;
     widows: 3;
   }
+  
   h2,
   h3 {
+    font-family: 'Prosto One', cursive;
     page-break-after: avoid;
   }
 }
@@ -209,7 +215,7 @@ body {
   font-size: 14px;
   line-height: 20px;
   color: #333333;
-  background-color: #ffffff;
+  background: #868383;
 }
 a {
   color: #0088cc;
@@ -546,8 +552,14 @@ a:focus {
   clear: both;
 }
 p {
+  font-family: 'Righteous', cursive;
   margin: 0 0 10px;
 }
+
+a {font-family: 'Prosto One', cursive;}
+
+p2{font-family: 'Prosto One', cursive;}
+
 .lead {
   margin-bottom: 20px;
   font-size: 21px;
